@@ -128,7 +128,7 @@ class BinaryClassDataLoader:
             sublists.append(sampled)
         return sublists
 
-labeled_images = Path(input("Path to data folder"))
+labeled_images = Path(input("Path to data folder: "))
 images = list(labeled_images.glob("*.jpg"))
 labels = []
 
